@@ -33,8 +33,18 @@ main {
     left: 25%;
     border: solid #485665 3px;
     border-radius: 10px;
-    z-index: 10;
+    z-index: 11;
     background: white;
     padding: 10px;
     display: none;
+}
+
+.modal-overlay {
+    display: block;
+    height: 100vh;
+    position: absolute;
+    background: rgba(0, 0, 0, .5);
+    z-index: 10;
+    top: 0;
+    width: 100%;
 }
